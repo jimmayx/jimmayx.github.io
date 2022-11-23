@@ -23,20 +23,19 @@ When I am not fixing or refurbishing old computer equipment, I am socialising wi
 - Call of Duty (Which ever one is the current release but I also frequent the older games using the plutonium mod)
 - Minecraft (Modded and Vanilla)
 - Forza Horizon
-- Destiny 2 (I have been absent from the game for a while but still adore the franchise and enjoy pouring over it every once in a while)
+- Destiny 2 (I have been absent from the game for a while but still adore the franchise and enjoy poring over it every once in a while)
 - GTA V
 
 ### Cars I have owned (in order)
 
-- 1990 Mitsubish Lancer GXL
-- 1995 Toyota Levin BZG (4AGE BT Manual)
-- 2003 Ford Mondeo 
-- 1996 Toyota Levin BZR (4AGE BT Manual)
-- 1993 Nissan Skyline R33 Sedan (25de Manual)
-- 1995 Honda Odyssey (H22a + Manual Conversion)
-- 2006 Honda Odyssey (K24)
-- 1996 Toyota Levin FZ (5AFE Manual)
-- 2008 Toyota Blade (2AZFE AWD)
-
+- 1990 Mitsubish Lancer GXL [Crashed]
+- 1995 Toyota Levin BZG (4AGE BT Manual) [Blew Up]
+- 2003 Ford Mondeo [Sold]
+- 1996 Toyota Levin BZR (4AGE BT Manual) [Traded]
+- 1993 Nissan Skyline R33 Sedan (25de Manual) [Sold]
+- 1995 Honda Odyssey (H22a + Manual Conversion) [sold]
+- 2006 Honda Odyssey (K24) [Sold]
+- 1996 Toyota Levin FZ (5AFE Manual) [Sold]
+- 2008 Toyota Blade (2AZFE AWD) [Current Car]
 
 > *Wow, this sounds like a very boring yet oddly specific tinder bio*
