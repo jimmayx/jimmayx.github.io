@@ -7,11 +7,11 @@ order: 4
  
  <style>
 img {
-  border-radius: 75%;
+  border-radius: 50%;
 
 }
 </style>
- <img src="/assets/img/me.JPG" alt="Josh leaning against a tree" height="23%" width="23%">
+ <img src="/assets/img/me.JPG" alt="Josh leaning against a tree" height="13%" width="20%">
 
 I am 23, have an insatiable love for technology and am an automotive enthusiast. 
 I currently work as an ICT Technician (operations and support) for a bustling local business. 
