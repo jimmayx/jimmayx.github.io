@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   A fun blog of Josh Sim's doings and adventures. Features technology and automotive fun!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://jimmayx.github.io'
+url: 'https://joshsim.nz'
 
 github:
   username: jimmayx           # change to your github username
@@ -159,7 +159,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: assets/img/favicon
     values:
       swcache: true
   - scope:
