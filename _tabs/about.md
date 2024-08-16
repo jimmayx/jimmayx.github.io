@@ -13,10 +13,16 @@ img {
 </style>
  <img src="/assets/img/me.JPG" alt="Josh leaning against a tree" height="13%" width="20%">
 
-I am 23, have an insatiable love for technology, and am an automotive enthusiast. 
+Hello World!
+
+Firstly, welcome to my blog. 
+I am 25, have an insatiable love for technology, and am an automotive enthusiast. 
 I currently work as an ICT Technician (operations and support) for a bustling local business. 
 I enjoy tinkering with old computers and servers, giving them a new lease on life as part of my growing home lab. 
  I also like to socialize with close friends over video games or cars. 
+
+I intend on updating this blog when I have spare 30 minutes. 
+
 
 ### Video Games I Enjoy
 
@@ -37,5 +43,6 @@ I enjoy tinkering with old computers and servers, giving them a new lease on lif
 - 2006 Honda Odyssey (K24) [Sold]
 - 1996 Toyota Levin FZ (5AFE Manual) [Sold]
 - 2008 Toyota Blade (2AZFE AWD) [Current Car]
+- 1997 Toyota Levin BZR (4AGE BT Manual) [Current Project Car]
 
 > *Wow, this sounds like a boring yet oddly specific tinder bio*
