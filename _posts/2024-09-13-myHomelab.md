@@ -11,7 +11,7 @@ In this post I am going to outline what my homelab is comprised of, all the diff
 
 Here is a quick overview of my network devices and my ever-evolving homelab:
 
-![My homelab diagram](jimmayx.github.io\assets\img\homelabNetworkDiagram.png "Network Diagram")
+![My homelab diagram]({{ site.baseurl }}/assets/img/homelabNetworkDiagram.png)
 
 The first thing I want to go over is my router. It is made from a mini-itx PC that I was given from work. I gave it a little bit of extra RAM and installed OPNSense on it. Other than a few times I have been messing around in the config, it has stayed rock solid. The big reason I went for a custom router was the price of an off the shelf solutions are expensive and don't give the level of customisation and feature support I want. I also wanted to start breaking up the roles of certain devices on my network. Having an access point that can just focus on the job of an access point can be very beneficial to overall performance, especially when I am using relatively low-end hardware. 
 
