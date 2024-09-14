@@ -16,8 +16,8 @@ img {
 Hello World!
 
 Firstly, welcome to my blog. 
-I am 25, have an insatiable love for technology, and am an automotive enthusiast. 
-I currently work as an ICT Technician (operations and support) for a bustling local business. 
+I have an insatiable love for technology, and a passionate car guy. 
+I currently work as an ICT Support Technician (operations and support) for a bustling local business. 
 I enjoy tinkering with old computers and servers, giving them a new lease on life as part of my growing home lab. 
  I also like to socialize with close friends over video games or cars. 
 
