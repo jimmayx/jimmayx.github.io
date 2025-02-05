@@ -1,4 +1,5 @@
 name: "Build and Deploy"
+
 on:
   push:
     branches:
@@ -9,7 +10,6 @@ on:
       - README.md
       - LICENSE
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,6 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -28,31 +27,35 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Updated to v4
+        uses: actions/checkout@v4
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2  # Updated to v2
+        uses: actions/configure-pages@v2
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1  # Reverted to v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1 # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
+          ruby-version: 3.1
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build -d "_site"
         env:
           JEKYLL_ENV: "production"
+
+      - name: Debug Base Path
+        run: echo "Base Path: ${{ steps.pages.outputs.base_path }}"
 
       - name: Test site
         run: |
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
 
       - name: Upload site artifact
-        uses: actions/upload-artifact@v4  # Corrected to v4
+        uses: actions/upload-artifact@v4
         with:
-          path: "_site${{ steps.pages.outputs.base_path }}"
+          name: github-pages
+          path: "_site"
 
   deploy:
     environment:
@@ -63,4 +66,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2  # Updated to v2
+        uses: actions/deploy-pages@v2
