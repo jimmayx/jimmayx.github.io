@@ -44,9 +44,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Debug Base Path
-        run: echo "Base Path: ${{ steps.pages.outputs.base_path }}"
-
       - name: Test site
         run: |
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
