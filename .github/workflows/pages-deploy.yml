@@ -44,14 +44,8 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Verify Build Output
-        run: ls -la _site
-
-      - name: Check Artifact Size
-        run: du -sh _site
-
-      - name: Check for Symlinks
-        run: find _site -type l -exec ls -l {} \;
+      - name: Remove Symlinks
+        run: find _site -type l -delete
 
       - name: Test site
         run: |
