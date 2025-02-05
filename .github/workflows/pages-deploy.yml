@@ -44,6 +44,9 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Verify Build Output
+        run: ls -la _site
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
