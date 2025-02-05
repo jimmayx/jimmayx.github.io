@@ -47,6 +47,12 @@ jobs:
       - name: Verify Build Output
         run: ls -la _site
 
+      - name: Check Artifact Size
+        run: du -sh _site
+
+      - name: Check for Symlinks
+        run: find _site -type l -exec ls -l {} \;
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
